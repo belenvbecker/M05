@@ -319,7 +319,7 @@ Cantidad total por categoría.<br>
 - d) ¿Que sucede luego del pico de mts recorrido?
 - e) ¿Cuantos metros recorrio en total?
 
-![Ejercicio2](/_src/assets/ejer2.PNG)
+![Ejercicio2](../_src/assets/ejer2.PNG)
 
 4. Se decide presentar el volumen de ventas de 5 productos correspondientes a una distribuidora de alimentos. Los productos van de A = 100 un., B = 95 un., C =90 un., D = 88 un., E = 105 un.
  - a) ¿Que gráfico utilizaría?.
