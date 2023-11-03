@@ -1,0 +1,110 @@
+# Checkpoint M5
+Formas parte del equipo de Data Analytics de una empresa del sector inmobiliario. En la base de datos "properties.csv" se encuentra información de 25660 propiedades en venta de Argentina y Colombia. Para cada registro (fila) los siguientes atributos sobre la ubicación de la vivienda:
+
+país
+provincia_departamento
+ciudad
+Algunas características de la vivienda:
+
+property_type (Tipo de propiedad)
+rooms
+bedrooms
+bathrooms
+Surface_total (Superficie total en metros cuadrados)
+price_USD (Valor total en dólares)
+Con base a esta información se pide responder a las siguientes preguntas eligiendo la opción correspondiente:
+1. Después de inspeccionar la base de datos, ¿Cuál variable (atributo) no aporta suficiente claridad para este estudio?
+ciudad
+property_type
+price_USD
+
+RTA: 2 property_type
+
+Para determinar qué variable no aporta suficiente claridad para este estudio, necesitaríamos realizar un análisis exploratorio de los datos. Sin embargo, basándonos en la descripción que proporcionaste, todas las variables parecen ser relevantes para un estudio inmobiliario. 
+
+La variable 'ciudad' proporciona información geográfica detallada que puede ser crucial para el análisis de precios inmobiliarios, ya que los precios pueden variar significativamente de una ciudad a otra.
+
+La variable 'property_type' es también esencial ya que el tipo de propiedad (casa, apartamento, etc.) puede influir en el precio.
+
+Finalmente, 'price_USD' es obviamente crítico ya que es la variable que probablemente querríamos predecir con un modelo de aprendizaje automático.
+
+Dicho esto, la relevancia de una variable puede depender del objetivo específico del estudio. Por lo tanto, podría ser útil tener más detalles sobre las preguntas o hipótesis específicas que se están investigando.
+
+2.El equipo directivo quiere conocer si hay alguna correlación entre la cantidad
+ superficie total en metros cuadrados y el precio en dólares.
+ ¿Cuál de las siguientes opciones es la más adecuada?
+Boxplot
+Scatter chart
+Line Chart
+Pie Chart
+
+RTA:Para analizar la correlación entre dos variables cuantitativas, 
+como la superficie total en metros cuadrados y el precio en dólares, 
+el gráfico más adecuado sería un **Scatter chart** (gráfico de dispersión). 
+
+Este tipo de gráfico permite visualizar si existe una relación lineal entre las 
+dos variables. Si los puntos se agrupan a lo largo de una línea ascendente,
+ indica una correlación positiva; si se agrupan a lo largo de una línea 
+descendente, indica una correlación negativa. Si los puntos están dispersos
+ sin ninguna dirección clara, puede indicar que no hay correlación. 
+Los otros tipos de gráficos mencionados (Boxplot, Line Chart, Pie Chart) 
+no son tan adecuados para este tipo de análisis.
+La correlación entre dos variables puede ser positiva, negativa o nula.
+
+- **Correlación Positiva**: Cuando las dos variables tienden a aumentar o disminuir juntas. Por ejemplo, si consideramos la edad y el tamaño de una persona, a medida que aumenta la edad (desde el nacimiento hasta la edad adulta), también lo hace el tamaño de la persona. Por lo tanto, estas dos variables tienen una correlación positiva.
+
+- **Correlación Negativa**: Cuando una variable tiende a aumentar y la otra a disminuir. Por ejemplo, si consideramos la cantidad de ejercicio que hace una persona y su peso, a medida que aumenta el ejercicio (suponiendo que todos los demás factores permanecen constantes), el peso de la persona tiende a disminuir. Por lo tanto, estas dos variables tienen una correlación negativa.
+
+- **Correlación Nula**: Cuando no hay relación discernible entre las dos variables. Por ejemplo, si consideramos la altura de una persona y su rendimiento académico, no hay una relación clara entre estas dos variables. Por lo tanto, estas dos variables tienen una correlación nula.
+
+Es importante recordar que la correlación no implica causalidad. Es decir, solo porque dos variables estén correlacionadas, no significa que una cause el cambio en la otra.
+
+3 A nivel general, ¿en qué Ciudad se encuentra la propiedad con el mayor valor por metro cuadrado?
+Bogotá D.C
+Palermo
+Cali
+RTA: Según los datos proporcionados, la propiedad con el mayor valor por metro cuadrado se encuentra en **Bogotá D.C**, Colombia. 
+Es un apartamento con 3 habitaciones, 3 dormitorios y 3 baños. La superficie total es de 10 metros cuadrados y su precio es de 632,976 dólares. Esto da un valor por metro cuadrado de 63,297.6 dólares. Por favor, ten en cuenta que estos datos son específicos para este conjunto de datos y pueden no reflejar el mercado inmobiliario actual.
+
+4 ¿Cuál es el valor por metro cuadrado de la propiedad encontrada en el punto anterior? Aproxime al entero más cercano.
+Rta) 63298
+2466
+5300
+RTA:El valor por metro cuadrado de la propiedad encontrada en Bogotá D.C, Colombia es aproximadamente **63298** dólares, redondeando al entero más cercano.
+
+5El cliente está interesado en conocer cómo varía el valor por metro cuadrado de acuerdo con las diferentes provincias en el caso de Argentina y a los departamentos en el caso de Colombia. Para lograr este objetivo desea crear un top 5 de las provincias con los valores por metro cuadrado más costosos. Se indica una serie de pasos a continuación (de una forma de hacerlo, podrían existir muchas más)
+El orden correcto de los pasos para crear un top 5 de las provincias con los valores por metro cuadrado más costosos sería **b, a, c, d**. Aquí está el proceso detallado:
+RTA:1
+b. Primero, se crea una columna calculada utilizando las columnas price_USD y surface_total para obtener el valor por metro cuadrado.
+c. Después, se crea un diagrama de barras. En el eje X ubicamos el promedio de la columna calculada y en el eje Y, provincia_departamento. Esto nos permitirá visualizar claramente las 5 provincias con los valores por metro cuadrado más altos.
+
+a. Luego, se realiza un filtro avanzado sobre el objeto visual con el Top N teniendo en cuenta el valor de la columna calculada. Esto nos dará las 5 provincias con los valores por metro cuadrado más altos.
+
+d. Finalmente, se realiza un filtro de página, una vez se tiene la visualización para mostrar lo referente a Argentina. 
+Esto nos permitirá ver solo los datos relevantes para Argentina.
+
+6) 2cundinamarca
+
+7) No
+
+8) Predictivo
+
+9)El stardate no puede ser posterior al star 1 (SI)
+
+10) 1 (SI)
+
+11) 1 - 9397
+
+12) 4
+
+13) si
+
+14) 1 si
+
+15) No
+
+16) 4 pie es una mala opcion
+
+
+
+

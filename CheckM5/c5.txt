@@ -1,0 +1,117 @@
+1)))))))  C)))
+Cual de las siguientes afirmaciones relativas al analisis 
+exploratorio de datos es falsa?
+
+A El analisis exploratorio de datos permite testear distintas hipotesis relativas a los datos. 
+
+B el analisis exploratorio de datos constribuye a identificar datos faltantes o outliers 
+ 
+ C el analisis exploratorio de datos consta de una secuecnia preestablecida de analisis estadistico y grficos.
+ 
+ D el analisis exploratorio de datos permite evaluar si los datos son suficientes para responder a la pregunta de negocio
+
+
+2)))))))  A))) No, no devuelve la diferencia.
+
+Analice la siguiente forumula y determine si devulve la diferencia porcentural entre un perdiodo mensual y otor (si/no).
+Ventas PM = CALCULATE(Ventas[Ventas totales],PREVIOUSMONTH(Calendario[Date]))  opciones: 
+
+A No, no devuelve la diferencia.
+B Si, devuelve la diferencia
+
+
+
+3))))))))   C)))
+¿Que es Data Analytics? 
+A conjunto de procesos para la extraccion y almacenamientos de datos , 
+B el proceso por el cual transformamos los datos. 
+C conjunto de tecnicas y procesos cuantitativos y cualitativos que son usados para la toma de dicesisiones, 
+    con el objtivo de mejorar la productividad y la ganancia de un negocio a travez del conocimiento extraido de los datos
+
+
+4))))))))))  B)))
+desea combinar varios archivos CSV en un solo archivo de datos despues de conectar una carpeta desde power query 
+¿que debe ser cierto acerca de estos archivos de datos csv? 
+A no deben tener filas de datos duplicados, 
+B deben tener el mismo esquema. 
+C deben tener el mismo tipo de archivo.
+D deben almacenarse en la misma carpeta 
+
+
+5))))))))))))  A)))
+¿la siguente formula posee un error? (si/no)? 
+Calendario = CALENDAR(MIN([Fecha]),MAX(Ventas[Fecha])) la respuesta es 
+A si. 
+B no
+
+
+6)))))))))  A)))
+el equipo de marketing esta interesado en conectarse a una API que contiene un ranking de gimnacios de la ciudad para mejorar un 
+modelo que esta realizando ¿como se espeficia la consulta a realizar a una API para extraer un determinado conjunto de datos de interes?
+A )se debe consultar la documentacion de la API para indentificar exactamente como plantear la query, 
+ya sea mediante un texto de consulta, o un dicccionarion de parametros. 
+B )se debe solicitar todo el tontenido HTML y luego implemetar un codigo para extraer los datos de interes. 
+C )se debe especificar una lista de las variables a extaer. 
+D )se debe espeficifar un diccionario estandar con las variables, fechas y cantidad de datos a extaer. 
+
+
+7))))))))))))  A)))
+¿cual es el objetivo de un boxplot? 
+A respresentar graficamente medidas de tendendcia central y dispersion de un varible numerica. 
+B representar el coeficiente de correlacion entre pares de variables. 
+C respresntar la frecuencia de valores de una variable categorica. 
+D representar toda la distribucion de una variable numerica
+
+
+8))))))))  C)))
+¿cual de ls siguientes afirmacion es correcta sobre un grafico de barra apiladas?
+ A nos permite codificar visualmente 2 variables numericas distintas. 
+ B nos permite codificar visuamente 2 variables distitnas, una variable categorica y una variable numerica. 
+ C nos permite codificar visualmente 3 variables distintas, dos variables numericas y una varibale categorica. 
+ D nos permite codificar visualemnte 3 variables distintas, una variable numerica y dos variables categoricas
+
+9))))))))))  C)))
+¿para cual de los siguientes problemas seria mas util usar un grafico de barras apiladas? 
+A graficar una funcion matematica bidimensional. 
+B Graficar la distribucion espacial de personas en una ciudad. 
+C graficar el total de ventas anuales de una empresa por canales de venta. 
+D graficar la temperatura media mensual de una ciudad
+
+
+10)))))))))  B)))
+usted debe graficar la altura de arboles promedio de un bosque, si en un principio los datos que se tienen para cada tipo 
+de arbol son solo el largo, en un periodo de 500 años consecutivos, ¿que tipo de frafico elegiria para mostrar estos datos? 
+
+A dispersion. 
+B lineas. 
+C barras. 
+D barras apiladas
+
+11)))))))))))  A)))
+seleccione la alternativa correcta respecto al analisis de datos: 
+A el rango intercuatil es una medida de dispersion de los datos. 
+B es posible el analisis estadistico de un variable numerica, pero no de una variable categorica. 
+C el rengo intercuartil, medana, media y desviacion estandar en conjunto representan completamente la distribucion de una variable. 
+D dos variables con igual media y dispersion estandar, tiene distribuciones identicas
+
+
+12)))))))))   D)))
+dada una matriz de graficos generada usando el comando pairplot de seaborn ¿que podemos decir de esta matiz? 
+A cada grafico aparece dos veces. 
+B ninguna de las demas opciones. 
+C es una matriz simetrica. 
+D las comparaciones entre dos variables distintas se hacen dos veces
+
+
+13))))))))   B)))
+User
+su modelo de datos incluye dos tablas relacionadas, Customers y Orders. 
+Para determinar la cantidad de clientes que han realizado pedidos, se deben crear una medida en la tabla,
+usando la funcion.
+ A customers; Recuento(COUNT). 
+ B Orders; Recuento disntitivo (DISTINCTCOUNT). 
+ c oRDERS; rECUENTO (count). 
+ d CUSTOMERS; RECUENTO DISTINTIVO (DISTINCTOCOUNT) 
+
+
+
